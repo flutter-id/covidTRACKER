@@ -7,7 +7,6 @@ covidTRACKER is a Mobile Application to help organization or governement to trac
 ## Features:
 
 - Status Record
-- History Recording Where From and Where to Patient Go Through Google Maps API
 - Story to Write Your Opinion
 - Written on Laravel as Backend
 - Written on Dart Flutter as Mobile Application
@@ -55,6 +54,39 @@ http://192.168.1.7:8000/install
 Email    : admin@admin.com
 Password : 12345678
 ```
+
+# # Back End Features
+
+#### User
+
+1. Registration
+2. Login
+3. Logout
+
+#### Story
+
+1. Create Story
+2. List Story
+
+#### Status
+
+1. Create Status
+2. List Status
+
+#### Indonesian Region
+
+1. Province
+2. Regency
+3. District
+4. Villlage
+
+## Backend Technology
+
+1. Laravel 8
+2. Eloquent
+3. Collection
+4. Resource
+5. Passport
 
 ## License
 

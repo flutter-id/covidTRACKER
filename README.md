@@ -7,7 +7,6 @@ covidTRACKER is a Mobile Application to help organization or governement to trac
 ## Features:
 
 - Status Record
-- History Recording Where From and Where to Patient Go Through Google Maps API
 - Story to Write Your Opinion
 - Written on Laravel as Backend
 - Written on Dart Flutter as Mobile Application
@@ -43,6 +42,7 @@ php artisan serve --host 192.168.1.7 --port 8000
 http://192.168.1.7:8000/install
 ```
 
+
 <img src="https://i.postimg.cc/d3PmzDrk/installation.png" height="400" />
 
 ### Connect Mobile Application to Back End Server
@@ -55,6 +55,99 @@ http://192.168.1.7:8000/install
 Email    : admin@admin.com
 Password : 12345678
 ```
+
+# # Back End Features
+
+#### User
+
+1. Registration
+
+2. Login
+
+3. Logout
+
+#### Story
+
+1. Create Story
+
+2. List Story
+
+#### Status
+
+1. Create Status
+
+2. List Status
+
+#### Indonesian Region
+
+1. Province
+
+2. Regency
+
+3. District
+
+4. Villlage
+
+## Backend Technology
+
+1. Laravel 8
+
+2. Eloquent
+
+3. Collection
+
+4. Resource
+
+5. Passport
+
+## Android Screen
+
+Home Screen
+
+<img src="https://i.postimg.cc/09hnmGCz/home1.jpg" height="1000" />
+
+
+<img src="https://i.postimg.cc/gzWKtYQd/home2.jpg" height="1000"/>
+
+Story Screen
+
+<img src="https://i.postimg.cc/NgT4xyNp/story.jpg" height="1000" />
+
+Graph Screen
+
+<img src="https://i.postimg.cc/pRGqVMhY/graph.jpg" height="1000" />
+
+Status Screen
+
+<img src="https://i.postimg.cc/NskkW3vX/status.jpg" height="1000" />
+
+Account Screen
+
+<img src="https://i.postimg.cc/z8Xx1GBG/account.jpg" height="1000" />
+
+Register Screen
+
+<img src="https://i.postimg.cc/WpsXz2wS/register.jpg" height="1000" />
+
+Login Screen
+
+<img src="https://i.postimg.cc/b8RmMtq5/login.jpg" height="1000" />
+
+Profile Screen
+
+<img src="https://i.postimg.cc/ZJWjCs6k/profile.jpg" height="1000" />
+
+## Flutter Technology
+
+1. Flutter 2
+
+2. Provider
+
+3. Flutter Chart
+
+4. Google Font
+
+5. Form Validation from Rest API
 
 ## License
 
