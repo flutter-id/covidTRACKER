@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:lancong/constants/style_constant.dart';
-import 'package:lancong/constants/color_constant.dart';
+import 'package:covidtracker/constants/style_constant.dart';
+import 'package:covidtracker/constants/color_constant.dart';
 
 class StatusWidget extends StatelessWidget {
   final list;

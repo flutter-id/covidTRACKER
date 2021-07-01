@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'layout_widget.dart';
-import 'package:lancong/modules/layout/layout_notifier.dart';
+import 'package:covidtracker/modules/layout/layout_notifier.dart';
 
 class LayoutScreen extends StatelessWidget {
   @override

@@ -1,6 +1,6 @@
 {
-    "name": "lancong",
-    "short_name": "lancong",
+    "name": "covidtracker",
+    "short_name": "covidtracker",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

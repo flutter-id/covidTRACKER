@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lancong/constants/color_constant.dart';
-import 'package:lancong/constants/style_constant.dart';
+import 'package:covidtracker/constants/color_constant.dart';
+import 'package:covidtracker/constants/style_constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class StatusListWidget extends StatelessWidget {
@@ -46,29 +46,39 @@ class StatusListWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text(
-                            list[index]['status'].toUpperCase(),
-                            style: list[index]['status'] == 'Positive'
-                                ? mPositiveTextStyle
-                                : mNegativeTextStyle,
+                          Expanded(
+                            child: Text(
+                              list[index]['status'].toUpperCase(),
+                              style: list[index]['status'] == 'Positive'
+                                  ? mPositiveTextStyle
+                                  : mNegativeTextStyle,
+                            ),
                           ),
-                          Text(
-                            list[index]['type'],
-                            style: mPopularDestinationTitleStyle,
+                          Expanded(
+                            child: Text(
+                              list[index]['type'],
+                              style: mPopularDestinationTitleStyle,
+                            ),
                           ),
-                          Text(
-                            list[index]['date'],
-                            style: mTitleStyle,
+                          Expanded(
+                            child: Text(
+                              list[index]['date'],
+                              style: mTitleStyle,
+                            ),
                           ),
-                          Text(
-                            list[index]['occupation'] +
-                                ' ' +
-                                list[index]['name'],
-                            style: mTitleStyle,
+                          Expanded(
+                            child: Text(
+                              list[index]['occupation'] +
+                                  ' ' +
+                                  list[index]['name'],
+                              style: mTitleStyle,
+                            ),
                           ),
-                          Text(
-                            list[index]['institution'],
-                            style: mTitleStyle,
+                          Expanded(
+                            child: Text(
+                              list[index]['institution'],
+                              style: mTitleStyle,
+                            ),
                           )
                         ],
                       ),

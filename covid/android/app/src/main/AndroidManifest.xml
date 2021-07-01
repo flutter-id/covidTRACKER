@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lancong">
+    package="com.flazhost.covidtracker">
    <application
-        android:label="lancong"
+        android:label="covidtracker"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

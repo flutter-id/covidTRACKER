@@ -1,21 +1,21 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:lancong/constants/color_constant.dart';
-import 'package:lancong/modules/layout/layout_notifier.dart';
+import 'package:covidtracker/constants/color_constant.dart';
+import 'package:covidtracker/modules/layout/layout_notifier.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:lancong/modules/layout/elements/bottom_navigation_widget.dart';
-import 'package:lancong/modules/home/home_screen.dart';
-import 'package:lancong/modules/status/status_screen.dart';
-import 'package:lancong/modules/graph/graph_screen.dart';
-import 'package:lancong/modules/story/story_screen.dart';
-import 'package:lancong/modules/account/account_screen.dart';
-import 'package:lancong/modules/login/login_screen.dart';
-import 'package:lancong/modules/register/register_screen.dart';
-import 'package:lancong/modules/profile/profile_screen.dart';
-import 'package:lancong/modules/status_form/status_form_screen.dart';
-import 'package:lancong/modules/story_form/story_form_screen.dart';
+import 'package:covidtracker/modules/layout/elements/bottom_navigation_widget.dart';
+import 'package:covidtracker/modules/home/home_screen.dart';
+import 'package:covidtracker/modules/status/status_screen.dart';
+import 'package:covidtracker/modules/graph/graph_screen.dart';
+import 'package:covidtracker/modules/story/story_screen.dart';
+import 'package:covidtracker/modules/account/account_screen.dart';
+import 'package:covidtracker/modules/login/login_screen.dart';
+import 'package:covidtracker/modules/register/register_screen.dart';
+import 'package:covidtracker/modules/profile/profile_screen.dart';
+import 'package:covidtracker/modules/status_form/status_form_screen.dart';
+import 'package:covidtracker/modules/story_form/story_form_screen.dart';
 
 class LayoutWidget extends StatefulWidget {
   @override

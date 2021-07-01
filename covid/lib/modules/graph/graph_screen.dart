@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'package:lancong/constants/style_constant.dart';
-import 'package:lancong/global/global_function.dart' as GlobalFunction;
+import 'package:covidtracker/constants/style_constant.dart';
+import 'package:covidtracker/global/global_function.dart' as GlobalFunction;
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:math';

@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:lancong/constants/color_constant.dart';
-import 'package:lancong/constants/style_constant.dart';
-// import 'package:lancong/models/carousel_model.dart';
-import 'package:lancong/global/global_function.dart' as GlobalFunction;
+import 'package:covidtracker/constants/color_constant.dart';
+import 'package:covidtracker/constants/style_constant.dart';
+// import 'package:covidtracker/models/carousel_model.dart';
+import 'package:covidtracker/global/global_function.dart' as GlobalFunction;
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:lancong/modules/home/elements/category_widget.dart';
-import 'package:lancong/modules/home/elements/status_widget.dart';
-import 'package:lancong/modules/home/elements/story_widget.dart';
+import 'package:covidtracker/modules/home/elements/category_widget.dart';
+import 'package:covidtracker/modules/home/elements/status_widget.dart';
+import 'package:covidtracker/modules/home/elements/story_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -96,13 +96,15 @@ class _HomeScreenState extends State<HomeScreen> {
       if (response.statusCode == 200) {
         List<CarouselModel> temp = [];
         for (var index = 0; index < result['data'].length; index++) {
-          this.setState(() {
+          if (this.mounted) {
             temp.add(new CarouselModel(result['data'][index]['image']));
+          }
+        }
+        if (this.mounted) {
+          this.setState(() {
+            this.data = temp;
           });
         }
-        this.setState(() {
-          this.data = temp;
-        });
 
         return result;
       } else {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
-import 'package:lancong/modules/layout/layout_notifier.dart';
-import 'package:lancong/constants/color_constant.dart';
+import 'package:covidtracker/modules/layout/layout_notifier.dart';
+import 'package:covidtracker/constants/color_constant.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
   const BottomNavigationWidget({Key key}) : super(key: key);

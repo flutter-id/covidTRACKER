@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lancong/constants/style_constant.dart';
+import 'package:covidtracker/constants/style_constant.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:lancong/modules/layout/layout_notifier.dart';
+import 'package:covidtracker/modules/layout/layout_notifier.dart';
 import 'package:provider/provider.dart';
 
 class AccountWidget extends StatefulWidget {

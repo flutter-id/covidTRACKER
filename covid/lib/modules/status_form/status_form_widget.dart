@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lancong/modules/layout/layout_notifier.dart';
-import 'package:lancong/constants/style_constant.dart';
-import 'package:lancong/modules/status_form/status_form_notifier.dart';
+import 'package:covidtracker/modules/layout/layout_notifier.dart';
+import 'package:covidtracker/constants/style_constant.dart';
+import 'package:covidtracker/modules/status_form/status_form_notifier.dart';
 import 'package:provider/provider.dart';
 import 'package:date_format/date_format.dart';
-import 'package:lancong/global/global_function.dart' as GlobalFunction;
+import 'package:covidtracker/global/global_function.dart' as GlobalFunction;
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

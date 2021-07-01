@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lancong/constants/style_constant.dart';
+import 'package:covidtracker/constants/style_constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class StoryListWidget extends StatelessWidget {
